@@ -48,7 +48,7 @@
       <div class="row d-flex justify-content-center mt-5 mb-5">
         <div class="col-md-4">
           <div class="form-group">
-            <input type="text" class="form-control" id="titulo" placeholder="Digite um titulo de postagem para pesquisar" [(ngModel)]='tituloPost' (keyup)='findByTituloPostagem()'>
+            <input type="text" class="form-control" id="titulo" placeholder="Digite um curso para pesquisar" [(ngModel)]='tituloPost' (keyup)='findByTituloPostagem()'>
           </div>
         </div>
       </div>
@@ -57,15 +57,17 @@
         <div class="card text-center"
         *ngFor='let item of listaPostagens | orderBy : key : reverse'>
           <div class="card-body">
-            <h5 class="card-title m-0">{{item.titulo}}</h5>
-            <small class="text-muted"> Tema: {{item.tema.descricao}}</small>
-            <p class="card-text mt-3">{{item.texto}}</p>
-            <p class="card-text"><small class="text-muted">
+            <h5 class="card-title m-0">{{item.curso}}</h5>
+            <small class="text-muted"> Categoria: {{item.categoria.tipo}}</small>
+            <p class="card-text mt-3">{{item.descricao}}</p>
+            <p class="card-text mt-3">{{item.preco}}</p>
+
+            <!-- <p class="card-text"><small class="text-muted">
               {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
-            </small></p>
+            </small></p> -->
 
             <p class="card-text"><small class="text-muted">
-              by: {{item.usuario.nome}}
+              by: {{item.user.nome}}
             </small></p>
           </div>
         </div>
@@ -80,12 +82,13 @@
         <div class="card text-center" *ngFor='let item of user.postagem | orderBy : key : reverse'>
           <div class="card-body">
 
-            <h5 class="card-title m-0">{{item.titulo}}</h5>
-            <small class="text-muted"> Tema: {{item.tema.descricao}}</small>
-            <p class="card-text mt-3">{{item.texto}}</p>
-            <p class="card-text"><small class="text-muted">
+            <h5 class="card-title m-0">{{item.curso}}</h5>
+            <small class="text-muted"> Tema: {{item.categoria.tipo}}</small>
+            <p class="card-text mt-3">{{item.descricao}}</p>
+            <p class="card-text mt-3">{{item.preco}}</p>
+            <!-- <p class="card-text"><small class="text-muted">
               {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
-            </small></p>
+            </small></p> -->
 
             <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
             <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
@@ -109,11 +112,12 @@
       <div class="card-columns" *ngFor='let tema of listaTemas'>
         <div class="card text-center" *ngFor='let item of tema.postagem | orderBy : key : reverse'>
           <div class="card-body">
-            <h5 class="card-title m-0">{{item.titulo}}</h5>
-            <p class="card-text mt-3">{{item.texto}}</p>
-            <p class="card-text"><small class="text-muted">
+            <h5 class="card-title m-0">{{item.curso}}</h5>
+            <p class="card-text mt-3">{{item.descricao}}</p>
+            
+            <!-- <p class="card-text"><small class="text-muted">
               {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
-            </small></p>
+            </small></p> -->
 
             <p class="card-text"><small class="text-muted">
               by: {{item.usuario.nome}}
@@ -137,7 +141,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="TituloModalCentralizado">Nova Postagem</h5>
+        <h5 class="modal-title" id="TituloModalCentralizado">Novo Produto</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -171,8 +175,9 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-success" (click)='publicar()'>Publicar</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal" (click)='publicar()'>Publicar</button>
       </div>
     </div>
   </div>
 </div>
+<!-- /Modal -->
