@@ -79,7 +79,7 @@
       <div class="card-columns">
         <div class="card text-center" *ngFor='let item of user.postagem | orderBy : key : reverse'>
           <div class="card-body">
-            
+
             <h5 class="card-title m-0">{{item.titulo}}</h5>
             <small class="text-muted"> Tema: {{item.tema.descricao}}</small>
             <p class="card-text mt-3">{{item.texto}}</p>
@@ -145,20 +145,25 @@
       <div class="modal-body">
 
         <div class="form-group">
-          <label for="titulo">Título</label>
-          <input [(ngModel)]='postagem.titulo' type="text" class="form-control" id="titulo" placeholder="Digite o título">
+          <label for="curso">Curso</label>
+          <input [(ngModel)]='postagem.curso' type="text" class="form-control" id="curso" placeholder="Digite o Curso">
         </div>
 
         <div class="form-group">
-          <label for="texto">Texto</label>
-          <textarea [(ngModel)]='postagem.texto' class="form-control" name="texto" id="texto" rows="3"></textarea>
+          <label for="descricao">Descrição</label>
+          <textarea [(ngModel)]='postagem.descricao' class="form-control" name="descricao" id="descricao" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="preco">Preço</label>
+          <input [(ngModel)]='postagem.preco' type="text" class="form-control" id="preco" placeholder="Digite o Preço">
         </div>
 
         <div class="form-group">
           <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink='/tema'>cadastre um novo</a>: </label>
           <select name="tema" id="tema" class="form-control" [(ngModel)]='idTema' (change)='findByIdTema()'>
             <option *ngFor='let item of listaTemas' value="{{item.id}}">
-              {{item.descricao}}
+              {{item.tipo}}
             </option>
           </select>
         </div>
