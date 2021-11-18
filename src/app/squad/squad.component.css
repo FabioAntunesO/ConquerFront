@@ -1,0 +1,675 @@
+.txt-azulescuro{
+  color: var(--color-font-titulo-equipe);
+}
+
+.backcolor{
+  background-color: #F3F3F4;
+}
+
+h2{
+  font-size: 50px;
+}
+p{
+  color: var(--color-font-black);
+}
+.redeSocial{
+  filter: invert(var(--icon));
+}
+
+#equipe{
+  font-size: 3em;
+  font-family: monospace;
+}
+
+.equipeDescricaoE{
+  width: 450px;
+  height: 130px;
+  background-color: var(--color-bg-branco);
+  border: #65655E 1px solid ;
+  margin-top: 25px;
+  margin-left:-30px;
+  -moz-box-shadow: 0px 20px 20px #65655E;
+  -webkit-box-shadow: 0px 10px 10px #65655E;
+  border-radius: 10px 0px 20px 20px;
+}
+
+.equipeDescricaoD{
+  width: 450px;
+  height: 130px;
+  background-color: var(--color-bg-branco);
+  border: #65655E 1px solid ;
+  margin-top: 25px;
+  margin-right:-80px;
+  -moz-box-shadow: 0px 10px 10px #65655E;
+  -webkit-box-shadow: 0px 10px 10px #65655E;
+  border-radius: 0px 5px 20px 20px;
+
+}
+
+.equipeFotoE{
+  z-index: 1000;
+  position: relative;
+  border: #65655E 4px solid;
+
+
+}
+
+.equipeFotoD{
+  z-index: 1000;
+  position: relative;
+  border: #65655E 4px solid;
+
+
+}
+
+.integranteE{
+  margin-left: 60px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.integranteD{
+  margin-left: 280px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+hr{
+  width: 350px;
+  border: #65655E solid 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.txt-descricaoE{
+  margin-left: 60px;
+  margin-top: 3px;
+}
+
+.txt-descricaoD{
+  margin-left: 185px;
+  margin-top: 3px;
+}
+
+.redeSocial{
+  margin-left: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.redeSocial:hover{
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.posicaoRedeE{
+  margin-left: 50px;
+
+}
+
+.posicaoRedeD{
+  margin-left: 290px;
+}
+
+
+@media only screen and (max-width:1350px) {
+
+  .equipeDescricaoE{
+      width: 350px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-left:-30px;
+      -moz-box-shadow: 0px 20px 20px #9b9e94;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 10px 0px 20px 20px;
+  }
+
+  .equipeDescricaoD{
+      width: 350px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-right:-80px;
+      -moz-box-shadow: 0px 10px 10px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 0px 5px 20px 20px;
+
+  }
+
+  .equipeFotoE{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+
+
+  }
+
+  .equipeFotoD{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+
+  }
+
+  .integranteE{
+      margin-left: 60px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  .integranteD{
+      margin-left: 180px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  hr{
+      width: 250px;
+      border: #65655E solid 1px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .txt-descricaoE{
+      margin-left: 60px;
+      margin-top: 3px;
+  }
+
+  .txt-descricaoD{
+      margin-left: 80px;
+      margin-top: 3px;
+  }
+
+  .redeSocial{
+      margin-left: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+
+  .redeSocial:hover{
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+  }
+
+  .posicaoRedeE{
+      margin-left: 50px;
+
+  }
+
+  .posicaoRedeD{
+      margin-left: 180px;
+  }
+
+}
+
+@media only screen and (max-width:1140px) {
+
+  .equipeDescricaoE{
+      width: 280px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-left:-30px;
+      -moz-box-shadow: 0px 20px 20px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 10px 0px 20px 20px;
+  }
+
+  .equipeDescricaoD{
+      width: 280px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-right:-80px;
+      -moz-box-shadow: 0px 10px 10px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 0px 5px 20px 20px;
+  }
+
+  .equipeFotoE{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+  }
+
+  .equipeFotoD{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+  }
+
+  .integranteE{
+      margin-left: 60px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  .integranteD{
+      margin-left: 110px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  hr{
+      width: 180px;
+      border: #65655E solid 1px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .txt-descricaoE{
+      margin-left: 60px;
+      margin-top: 3px;
+  }
+
+  .txt-descricaoD{
+      margin-left: 10px;
+      margin-top: 3px;
+  }
+
+  .redeSocial{
+      margin-left: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+
+  .redeSocial:hover{
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+  }
+
+  .posicaoRedeE{
+      margin-left: 50px;
+
+  }
+
+  .posicaoRedeD{
+      margin-left: 110px;
+  }
+
+}
+
+@media only screen and (max-width:1000px) {
+
+  .equipeDescricaoE{
+      width: 280px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-left:-30px;
+      -moz-box-shadow: 0px 20px 20px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 10px 0px 20px 20px;
+  }
+
+  .equipeDescricaoD{
+      width: 280px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-right:-80px;
+      -moz-box-shadow: 0px 10px 10px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 0px 5px 20px 20px;
+  }
+
+  .equipeFotoE{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 120px;
+      height: 120px;
+  }
+
+  .equipeFotoD{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 120px;
+      height: 120px;
+  }
+
+  .integranteE{
+      margin-left: 60px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  .integranteD{
+      margin-left: 110px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  hr{
+      width: 180px;
+      border: #65655E solid 1px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .txt-descricaoE{
+      margin-left: 60px;
+      margin-top: 3px;
+  }
+
+  .txt-descricaoD{
+      margin-left: 10px;
+      margin-top: 3px;
+  }
+
+  .redeSocial{
+      margin-left: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+
+  .redeSocial:hover{
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+  }
+
+  .posicaoRedeE{
+      margin-left: 50px;
+
+  }
+
+  .posicaoRedeD{
+      margin-left: 110px;
+  }
+}
+
+@media only screen and (max-width:880px) {
+
+  .equipeDescricaoE{
+      width: 280px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-left:-30px;
+      -moz-box-shadow: 0px 20px 20px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 10px 0px 20px 20px;
+  }
+
+  .equipeDescricaoD{
+      width: 280px;
+      height: 130px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-right:-80px;
+      -moz-box-shadow: 0px 10px 10px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 0px 5px 20px 20px;
+  }
+
+  .equipeFotoE{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 120px;
+      height: 120px;
+  }
+
+  .equipeFotoD{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 120px;
+      height: 120px;
+  }
+
+  .integranteE{
+      margin-left: 60px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  .integranteD{
+      margin-left: 110px;
+      margin-top: 16px;
+      margin-bottom: 4px;
+  }
+
+  hr{
+      width: 180px;
+      border: #65655E solid 1px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .txt-descricaoE{
+      margin-left: 60px;
+      margin-top: 3px;
+  }
+
+  .txt-descricaoD{
+      margin-left: 10px;
+      margin-top: 3px;
+  }
+
+  .redeSocial{
+      margin-left: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+  }
+
+  .redeSocial:hover{
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+  }
+
+  .posicaoRedeE{
+      margin-left: 50px;
+
+  }
+
+  .posicaoRedeD{
+      margin-left: 110px;
+  }
+}
+
+@media only screen and (max-width:880px) {
+
+  .equipeDescricaoE{
+      width: 280px;
+      height: 100px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-left:-30px;
+      -moz-box-shadow: 0px 20px 20px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 10px 0px 20px 20px;
+
+  }
+
+  .equipeDescricaoD{
+      width: 280px;
+      height: 100px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-right:-80px;
+      -moz-box-shadow: 0px 10px 10px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 0px 5px 20px 20px;
+  }
+
+  .equipeFotoE{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 80px;
+      height: 80px;
+  }
+
+  .equipeFotoD{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 80px;
+      height: 80px;
+  }
+
+  .integranteE{
+      margin-left: 60px;
+      margin-top: 8px;
+      margin-bottom: 4px;
+  }
+
+  .integranteD{
+      margin-left: 110px;
+      margin-top: 8px;
+      margin-bottom: 4px;
+  }
+
+  hr{
+      width: 180px;
+      border: #65655E solid 1px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .txt-descricaoE{
+      margin-left: 60px;
+      margin-top: 3px;
+      font-size: 12px;
+      margin-bottom: 4px;
+  }
+
+  .txt-descricaoD{
+      margin-left: 70px;
+      margin-top: 3px;
+      font-size: 12px;
+      margin-bottom: 4px;
+  }
+
+  .redeSocial{
+      margin-left: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+      width: 20px;
+  }
+
+  .redeSocial:hover{
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+  }
+
+  .posicaoRedeE{
+      margin-left: 50px;
+  }
+
+  .posicaoRedeD{
+      margin-left: 110px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+
+  .equipeDescricaoE{
+      width: 230px;
+      height: 100px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-left:-30px;
+      -moz-box-shadow: 0px 20px 20px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 10px 0px 20px 20px;
+
+  }
+
+  .equipeDescricaoD{
+      width: 230px;
+      height: 100px;
+      background-color: var(--color-bg-branco);
+      border: #65655E 1px solid ;
+      margin-top: 25px;
+      margin-right:-80px;
+      -moz-box-shadow: 0px 10px 10px #65655E;
+      -webkit-box-shadow: 0px 10px 10px #65655E;
+      border-radius: 0px 5px 20px 20px;
+  }
+
+  .equipeFotoE{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+  }
+
+  .equipeFotoD{
+      z-index: 1000;
+      position: relative;
+      border: #65655E 4px solid;
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+  }
+
+  .integranteE{
+      margin-left: 40px;
+      margin-top: 8px;
+      margin-bottom: 4px;
+  }
+
+  .integranteD{
+      margin-left: 70px;
+      margin-top: 8px;
+      margin-bottom: 4px;
+  }
+
+  hr{
+      width: 140px;
+      border: #17A697 solid 1px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .txt-descricaoE{
+      margin-left: 40px;
+      margin-top: 3px;
+      font-size: 12px;
+      margin-bottom: 4px;
+  }
+
+  .txt-descricaoD{
+      margin-left: 30px;
+      margin-top: 3px;
+      font-size: 12px;
+      margin-bottom: 4px;
+  }
+
+  .redeSocial{
+      margin-left: 10px;
+      transition: all 0.5s;
+      cursor: pointer;
+      width: 20px;
+  }
+
+  .redeSocial:hover{
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+  }
+
+  .posicaoRedeE{
+      margin-left: 50px;
+  }
+
+  .posicaoRedeD{
+      margin-left: 110px;
+  }
+}

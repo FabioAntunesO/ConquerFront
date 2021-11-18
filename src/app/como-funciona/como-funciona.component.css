@@ -1,0 +1,109 @@
+.bg-dividido-oposto {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(30deg, var(--color-bg-como-funciona) 50%,#012340 50%);
+}
+.dot {
+  height: 45px;
+  width: 45px;
+  color: #012340;
+  font-weight: bolder;
+  font-size: 35px;
+  background-color: #65655E;
+  border-radius: 50%;
+  display: block;
+  transition: 500ms;
+
+}
+.ajustes-numero{
+    padding-top: 200px;
+}
+.explicacao:hover .dot {
+    transition: 500ms;
+  height: 55px;
+  width: 55px;
+  font-size: 35px;
+  background-color: #D9FF70;
+
+
+}
+
+.txt-creme {
+  padding-top: 10px;
+  color: #D9FF70;
+  font-weight: 500;
+}
+.imgs-como-funciona{
+ height: 400px;
+ transition: 500ms;
+ position: relative;
+}
+.zoom-img{
+  height: 600px;
+}
+
+h2, p{
+  font-weight: 500;
+  color: #65655E;
+
+  justify-content: center;
+}
+p{
+  width: 400px;
+  text-align: center;
+  opacity: 0;
+  transition: 500ms;
+}
+a{
+  text-decoration: none;
+}
+.explicacao:hover .imgs-como-funciona{
+  transition: 500ms;
+  height: 450px;
+}
+.explicacao:hover p{
+  transition: 500ms;
+  opacity: 1;
+}
+
+.tipoFonte{
+  font-size: 40px;
+  color: #65655E;
+
+
+}
+
+@media only screen and (max-width:1316px) {
+  .bg-dividido-oposto {
+
+      height: 1300px;
+  }
+}
+@media only screen and (max-width:1200px) {
+  .bg-dividido-oposto {
+
+      height: 1300px;
+  }
+}
+
+@media only screen and (max-width:875px) {
+  .bg-dividido-oposto {
+
+      height: 1700px;
+  }
+}
+@media only screen and (max-width:800px) {
+  .bg-dividido-oposto {
+
+      height: 1800px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .imgs-como-funciona{
+      height: 400px;
+      transition: 500ms;
+      position: relative;
+      width: 300px
+   }
+}
