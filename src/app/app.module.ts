@@ -26,6 +26,9 @@ import { OdsComponent } from './ods/ods.component';
 import { HomeComponent } from './home/home.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { CardsComponent } from './cards/cards.component';
+import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
+
+
 
 
 @NgModule({
@@ -48,8 +51,8 @@ import { CardsComponent } from './cards/cards.component';
     OdsComponent,
     HomeComponent,
     CarrouselComponent,
-    CardsComponent
-
+    CardsComponent,
+    SobreNosComponent
   ],
   imports: [
     BrowserModule,
