@@ -5,6 +5,7 @@ body {
   background-image: linear-gradient(to right, #ffffb3, #ffe6e6);
   background-attachment: fixed;
   background-size: cover;
+  background-color: #7d7d7d;
 }
 
 #container {
