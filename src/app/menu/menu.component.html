@@ -1,29 +1,52 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-light color">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light  fs-36" href="#" style="align-items: center;" routerLink='/inicio'>
+      <img id="imgLogo" src="../../assets/logo/LogoConquerPreto.jpg"  alt="LogoConquer"></a>
+    
 
-  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-    <ul class="navbar-nav mr-auto d-flex align-items-center">
-      <li class="nav-item active">
-        <img src="{{foto}}" alt="Imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
-      </li>
-      <li class="nav-item pl-3">
-        <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
-      </li>
+    <div class="login align-items-center">
+      <a href="#" routerLink='/entrar'>
+        <p>Login<i class="fa fa-sign-in" aria-hidden="true"></i>
+        </p>
+      </a>
+    </div>
 
-      <li class="nav-item pl-3">
-        <a [routerLink]="['/user-edit', id]" >
-          <p class="text-white fs-16 m-0"><i class="fa fa-pencil-square-o " aria-hidden="true"></i></p>
-        </a>
-      </li>
-    </ul>
-
-    <ul class="navbar-nav ml-auto d-flex align-items-center">
-      <li class="nav-item pl-3">
-        <a (click)='sair()' class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
-      </li>
-    </ul>
+    <!-- Exemplo de único botão danger -->
+    <div class="btn-group align-items-center">
+      <button type="button" class="btn btn-dark dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Menu
+      </button>
+      <!-- Ajustar a largura do dropDown -->
+      <div class="dropdown-menu ajusteDrop" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">Home</a>
+        <a class="dropdown-item" routerLink='/sobre-nos'>Sobre nós</a>
+        <a class="dropdown-item" routerLink='/home'>Cursos</a>
+        <a class="dropdown-item" href="#">Doe aqui</a>
+        <a class="dropdown-item" href="#">Contato</a>
+      </div>
+    </div>
 
   </div>
 </nav>
+
+
+<!-- menu antigo -->
+
+<!-- <div class="dropdown">
+
+  <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+    aria-expanded="false">
+    Menu
+  </a>
+aria-labelledby="dropdownMenuLink"
+  <ul class="dropdown-menu menu" >
+    <li><a class="dropdown-item" href="#">Home</a></li>
+    <li><a class="dropdown-item" routerLink='/sobre-nos'>Sobre nós</a></li>
+    <li><a class="dropdown-item" routerLink='/produto'>Cursos</a></li>
+    <li><a class="dropdown-item" href="#">Doe aqui</a></li>
+    <li><a class="dropdown-item" href="#">Contato</a></li>
+
+  </ul>
+</div> -->
+<!-- menu antigo -->

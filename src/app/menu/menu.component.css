@@ -5,3 +5,50 @@
 a{
   cursor: pointer;
 }
+
+.color{
+  background-color: #1c1c1c;
+}
+
+.login {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 20px auto auto ;
+}
+
+.login a {
+  color: white;
+  text-decoration: none;
+}
+
+.login a:hover {
+  color:#65655E;
+}
+
+.fs-36{
+  font-size: 36pt;
+}
+
+.menu li a{
+ color: #1C1C1C; 
+ font-weight: bold;
+ font-style: italic;
+}
+
+.menu li a:hover{
+  color: #65655E;
+  padding-left: 10px;
+}
+
+.ajusteDrop{
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+
+#imgLogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+}
