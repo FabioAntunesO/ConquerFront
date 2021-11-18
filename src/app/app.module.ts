@@ -20,6 +20,11 @@ import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.compon
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { AlertasComponent } from './alertas/alertas.component';
+import { SquadComponent } from './squad/squad.component';
+import { ComoFuncionaComponent } from './como-funciona/como-funciona.component';
+import { OdsComponent } from './ods/ods.component';
+import { HomeComponent } from './home/home.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
 
 
 
@@ -38,7 +43,12 @@ import { AlertasComponent } from './alertas/alertas.component';
     PostagemEditComponent,
     PostagemDeleteComponent,
     UserEditComponent,
-    AlertasComponent
+    AlertasComponent,
+    SquadComponent,
+    ComoFuncionaComponent,
+    OdsComponent,
+    HomeComponent,
+    CarrouselComponent
   ],
   imports: [
     BrowserModule,
