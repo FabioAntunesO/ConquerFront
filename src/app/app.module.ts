@@ -24,6 +24,7 @@ import { SquadComponent } from './squad/squad.component';
 import { ComoFuncionaComponent } from './como-funciona/como-funciona.component';
 import { OdsComponent } from './ods/ods.component';
 import { HomeComponent } from './home/home.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
 
 
 
@@ -46,7 +47,8 @@ import { HomeComponent } from './home/home.component';
     SquadComponent,
     ComoFuncionaComponent,
     OdsComponent,
-    HomeComponent
+    HomeComponent,
+    CarrouselComponent
   ],
   imports: [
     BrowserModule,
