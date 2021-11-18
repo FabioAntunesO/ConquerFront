@@ -10,6 +10,7 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+
 const routes: Routes = [
 
   {path: '', redirectTo: 'entrar', pathMatch: 'full'},
@@ -19,6 +20,7 @@ const routes: Routes = [
 
   {path: 'inicio', component: InicioComponent},
   {path: 'tema', component: TemaComponent},
+  {path: 'carrinho, component: CarrinhoComponent'},
 
   {path: 'tema-edit/:id', component: TemaEditComponent},
   {path: 'tema-delete/:id', component: TemaDeleteComponent},
