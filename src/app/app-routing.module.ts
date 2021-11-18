@@ -13,9 +13,10 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
 
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: 'home', component: HomeComponent},
+  {path: '', redirectTo: 'entrar', pathMatch: 'full'},
   {path:'entrar', component: EntrarComponent},
+  {path: 'home', component: HomeComponent},
+
   {path: 'cadastrar', component: CadastrarComponent},
 
   {path: 'inicio', component: InicioComponent},

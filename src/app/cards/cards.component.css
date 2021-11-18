@@ -9,10 +9,11 @@ body {
 }
 
 #containerFundo{
-    background-color:#1a66ff;
+    background-color: #c3c3c39b;
 }
 
 #container {
+
   box-shadow: 0 15px 30px 1px grey;
   background: rgba(255, 255, 255, 0.9);
   text-align: center;
@@ -21,12 +22,11 @@ body {
   margin: 3em auto;
   height: 500px;
   width: 500px;
-  position: absolute;
-  z-index: 1;
-  top: 0px;
+
 }
 
-#container1 {
+  #container1 {
+
     box-shadow: 0 15px 30px 1px grey;
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
@@ -35,13 +35,12 @@ body {
     margin: 3em auto;
     height: 500px;
     width: 500px;
-    position: absolute;
-    z-index: 2;
-    top: 0px;
-    left: 550px;
+
+
   }
 
   #container2 {
+
     box-shadow: 0 15px 30px 1px grey;
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
@@ -50,10 +49,8 @@ body {
     margin: 3em auto;
     height: 500px;
     width: 500px;
-    position: absolute;
-    z-index: 3;
-    top: 0px;
-    left: 1100px;
+
+
   }
 
 .product-details {
