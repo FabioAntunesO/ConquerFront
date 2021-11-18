@@ -1,9 +1,82 @@
-#img-bg{
-  background-image: url('https://i.imgur.com/w3d95jN.jpg');
+.img{
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  ),
 
-  min-height: 695px;
-
+  url("../../assets/img/Secure login-bro .png");
+  width:  100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 70% 109%;
+  padding: 100px;
+  margin: auto;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    padding: 100px;
+  }
+
+  .card {
+    background-color: #83837e66;
+    padding: 30px;
+    border-radius: 11%;
+    min-width: 350px;
+    max-width: 500px;
+  }
+
+  .cadastrar{
+    background-color: #D9FF70;
+    border-color: #1c1c1c;
+    color: #422157;
+
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+    min-width: 95%
+  }
+
+  .cancelar{
+    background-color: #D9FF70;
+    border-color: #D9FF70;
+    color: #422157;
+
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+    min-width: 95%
+  }
+
+  .cadastrar:hover{
+    background-color: #FFDF64;
+    border-color: #FFDF64;
+    color: #2c0346;
+  }
+
+  .cancelar:hover{
+    background-color: red;
+    border-color: red;
+    color: #fff;
+  }
+  input{
+      text-align: center;
+  }
+  h2{
+      text-align: center;
+      color: #ffffff;
+  }
+

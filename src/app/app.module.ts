@@ -20,11 +20,15 @@ import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.compon
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { AlertasComponent } from './alertas/alertas.component';
+<<<<<<< HEAD
 import { SquadComponent } from './squad/squad.component';
 import { ComoFuncionaComponent } from './como-funciona/como-funciona.component';
 import { OdsComponent } from './ods/ods.component';
 import { HomeComponent } from './home/home.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
+=======
+import { CardsComponent } from './cards/cards.component';
+>>>>>>> 48d14a07ac2f4ccb636ba44f703bbfae5bd2aaf6
 
 
 
@@ -44,11 +48,15 @@ import { CarrouselComponent } from './carrousel/carrousel.component';
     PostagemDeleteComponent,
     UserEditComponent,
     AlertasComponent,
+<<<<<<< HEAD
     SquadComponent,
     ComoFuncionaComponent,
     OdsComponent,
     HomeComponent,
     CarrouselComponent
+=======
+    CardsComponent
+>>>>>>> 48d14a07ac2f4ccb636ba44f703bbfae5bd2aaf6
   ],
   imports: [
     BrowserModule,
