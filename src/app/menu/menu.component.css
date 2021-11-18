@@ -52,3 +52,8 @@ a{
     height: 100px;
     border-radius: 70%;
 }
+
+#centerLogin{
+    /* margin-bottom: 1rem; */
+    margin-top: 14px;
+}
