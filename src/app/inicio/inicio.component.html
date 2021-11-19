@@ -56,6 +56,10 @@
             <p class="card-text ">{{item.preco}}</p>
             <p class="card-text">{{item.descricao}}</p>
             <p class="card-text"><small class="text-muted">by: {{item.usuario.nome}}</small></p>
+
+            <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
+            <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
+
           </div>
         </div>
 
@@ -91,6 +95,8 @@
 
     </div> -->
 
+    
+
     <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">
 
 
@@ -116,8 +122,8 @@
               {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
             </small></p> -->
 
-            <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
-            <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
+            <!-- <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
+            <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a> -->
 
           </div>
         </div>
