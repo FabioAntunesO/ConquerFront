@@ -1,7 +1,7 @@
 .img{
   background-image: linear-gradient(
-    rgba(255, 255, 255, 0.3) 0%,
-    rgba(255, 255, 255, 0.3) 100%
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 10) 100%
   ),
 
   url("../../assets/img/Secure login-bro .png");
@@ -14,7 +14,7 @@
 }
 
 #conquer{
-  font-weight: 800;
+  font-weight: 1000;
   color: #1c1c1c;
 
 }
@@ -35,7 +35,7 @@
   }
 
   .card {
-    background-color:#83837e66 ;
+    background-color:#16161366 ;
 
     padding: 30px;
     border-radius: 11%;
