@@ -20,7 +20,7 @@ const routes: Routes = [
 
   {path: 'inicio', component: InicioComponent},
   {path: 'tema', component: TemaComponent},
-  {path: 'carrinho, component: CarrinhoComponent'},
+  // {path: 'carrinho', component: CarrinhoComponent},
 
   {path: 'tema-edit/:id', component: TemaEditComponent},
   {path: 'tema-delete/:id', component: TemaDeleteComponent},
