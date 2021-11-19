@@ -23,7 +23,7 @@
 }
 
 .main-btn {
-  background-color: #65daf9;
+  background-color: #FFDF64;
   color: #FFF;
   text-transform: uppercase;
   width: 200px;
@@ -38,9 +38,13 @@
   text-decoration: none;
   color: #FFF;
   background-color: transparent;
-  border-color: #65daf9;
+  border-color: #FFDF64;
 }
 
 .carousel-indicators .active {
-  background-color: #65daf9;
+  background-color: #FFDF64;
+}
+
+.mb{
+  margin: 0px;
 }

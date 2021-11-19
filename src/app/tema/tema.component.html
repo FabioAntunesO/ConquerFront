@@ -1,4 +1,89 @@
-<div class="container-fluid">
+<div class="container-fluid d flex- justify-content-center" id="backcolor">
+  <div class="row">
+    <div class="col-md-6">
+
+        <a routerLink='/inicio' class="text-white text-left"><i class="fa fa-angle-double-left" aria-hidden="true"></i> início</a>
+
+        <h1 class="fs-54 text-center">Categorias</h1>
+        <h5 class="fs-18 text-center">Veja aqui todas as categorias cadastradas ou cadastre uma nova:</h5>
+
+        <div class="row d-flex justify-content-center mt-4 mb-5">
+          <div class="col-md-3">
+            <div class="form-group">
+              <input [(ngModel)]='tema.tipo' type="text" class="form-control" id="descricao" placeholder="Digite a categoria do curso">
+            </div>
+            <div class="form-group">
+              <input [(ngModel)]='tema.organizacao' type="text" class="form-control" id="descricao" placeholder="Digite o autor do curso">
+            </div>
+
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-light" (click)='cadastrar()'>Cadastrar</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+
+
+        <div class="col-md-12">
+          <h2 class="text-center">Todas as Categorias</h2>
+        </div>
+
+
+      <div class="row mt-3 mb-5 d-flex justify-content-center">
+        <div class="col-md-6">
+
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Autor</th>
+                <th scope="col" class="text-right">Modificações</th>
+
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr *ngFor='let item of listaTemas'>
+                <th>{{item.id}}</th>
+                <td>{{item.tipo}}</td>
+                <td>{{item.organizacao}}</td>
+                <td class="d-flex justify-content-end">
+                  <button class="btn mr-3 btncolor" [routerLink]="['/tema-edit', item.id]" >Editar</button>
+                  <button class="btn btn-danger" [routerLink]="['/tema-delete', item.id]" >Apagar</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+
+
+  </div>
+
+  <div class="d-flex justify-content-center mr">
+    <img src="https://images.pexels.com/photos/265076/pexels-photo-265076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="imagem" width="80%">
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container-fluid">
 
   <div class="row bg-secondary">
     <div class="col-md-12 text-white">
@@ -8,16 +93,16 @@
         <i class="fa fa-angle-double-left" aria-hidden="true"></i> início
       </a>
 
-      <h1 class="fs-54 text-center">Temas</h1>
-      <h5 class="fs-18 text-center">Veja aqui todos os temas cadastrados ou cadastre um novo:</h5>
+      <h1 class="fs-54 text-center">Categorias</h1>
+      <h5 class="fs-18 text-center">Veja aqui todas as categorias cadastradas ou cadastre um novo:</h5>
 
       <div class="row d-flex justify-content-center mt-4 mb-5">
         <div class="col-md-3">
           <div class="form-group">
-            <input [(ngModel)]='tema.tipo' type="text" class="form-control" id="descricao" placeholder="Digite a descrição do tema">
+            <input [(ngModel)]='tema.tipo' type="text" class="form-control" id="descricao" placeholder="Digite a categoria do curso">
           </div>
           <div class="form-group">
-            <input [(ngModel)]='tema.organizacao' type="text" class="form-control" id="descricao" placeholder="Digite a descrição do tema">
+            <input [(ngModel)]='tema.organizacao' type="text" class="form-control" id="descricao" placeholder="Digite o autor do curso">
           </div>
 
           <div class="d-flex justify-content-center">
@@ -36,7 +121,7 @@
 
   <div class="row mt-5">
     <div class="col-md-12">
-      <h2 class="text-center">Todos os temas</h2>
+      <h2 class="text-center">Todas as Categorias</h2>
     </div>
   </div>
 
@@ -47,8 +132,8 @@
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Tipo</th>
-            <th scope="col">Organização</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Autor</th>
             <th scope="col" class="text-right">Modificações</th>
 
           </tr>
@@ -70,4 +155,4 @@
     </div>
   </div>
 
-</div>
+</div> -->

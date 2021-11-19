@@ -1,0 +1,26 @@
+#backcolor{
+  background: hsla(240, 4%, 95%, 1);
+
+  background: linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+  background: -moz-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+  background: -webkit-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F3F4", endColorstr="#FFDF64", GradientType=1 );
+}
+
+.btncolor{
+  background-color: #FFDF64;
+}
+
+.container{
+  position: absolute;
+  z-index: 1;
+  top:100px;
+  left: 1200px;
+}
+
+.mr{
+ padding-bottom: 15px;
+}

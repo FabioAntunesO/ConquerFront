@@ -3,6 +3,19 @@
   height: 700px;
   background: linear-gradient(30deg, var(--color-bg-como-funciona) 50%,#012340 50%);
 }
+
+#containerFundo{
+  background: hsla(240, 4%, 95%, 1);
+
+background: linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+background: -moz-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+background: -webkit-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F3F4", endColorstr="#FFDF64", GradientType=1 );
+}
+
 .dot {
   height: 45px;
   width: 45px;

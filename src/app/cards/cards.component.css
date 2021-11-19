@@ -9,7 +9,15 @@ body {
 }
 
 #containerFundo{
-    background-color: #c3c3c39b;
+  background: hsla(240, 4%, 95%, 1);
+
+  background: linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+  background: -moz-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+  background: -webkit-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F3F4", endColorstr="#FFDF64", GradientType=1 );
 }
 
 #container {
@@ -68,7 +76,7 @@ body {
   display: inline-block;
   position: relative;
   font-size: 30px;
-  color: #344055;
+  color: #D9FF70;
   margin: 0;
 }
 
@@ -85,6 +93,7 @@ body {
   font-size: 14px;
   padding: 5px;
   color: white;
+  font-weight: 600;
   margin: 0;
   animation: chan-sh 6s ease infinite;
 }
@@ -92,7 +101,7 @@ body {
 .hint-star {
   display: inline-block;
   margin-left: 0.5em;
-  color: gold;
+  color: #D9FF70;
   width: 50%;
 }
 
@@ -111,21 +120,22 @@ body {
 .btn {
   transform: translateY(0px);
   transition: 0.3s linear;
-  background: #809fff;
+  background: #65655E;
   border-radius: 5px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
   outline: none;
   border: none;
-  color: #eee;
+  color: black;
+  font-weight: 600;
   padding: 0;
   margin: 0;
 }
 
 .btn:hover {
   transform: translateY(-6px);
-  background: #1a66ff;
+  background: #D9FF70;
 }
 
 .btn span {
