@@ -14,7 +14,7 @@
 }
 
 #conquer{
-  font-weight: 800;
+  font-weight: 1000;
   color: #1c1c1c;
 
 }
@@ -22,7 +22,7 @@
 .peso{
   font-weight: 600;
   font-size: 16pt;
-  color: #1c1c1c;
+  color: #ffffff;
 
 }
 
@@ -35,7 +35,7 @@
   }
 
   .card {
-    background-color:#83837e66 ;
+    background-color:#16161366 ;
 
     padding: 30px;
     border-radius: 11%;
@@ -70,5 +70,10 @@
   h2{
       text-align: center;
       color: #ffffff;
+  }
+  #visivel{
+    font-weight: bold;
+    font-size: 18pt;
+    color: #ffffff;
   }
 

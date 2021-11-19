@@ -1,29 +1,31 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-light color">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light  fs-36" href="#" style="align-items: center;" routerLink='/inicio'>
+      <img id="imgLogo" src="../../assets/logo/LogoConquerPretoSemBG.png"  alt="LogoConquer"></a>
+    
 
-  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-    <ul class="navbar-nav mr-auto d-flex align-items-center">
-      <li class="nav-item active">
-        <img src="{{foto}}" alt="Imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
-      </li>
-      <li class="nav-item pl-3">
-        <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
-      </li>
-
-      <li class="nav-item pl-3">
-        <a [routerLink]="['/user-edit', id]" >
-          <p class="text-white fs-16 m-0"><i class="fa fa-pencil-square-o " aria-hidden="true"></i></p>
-        </a>
-      </li>
-    </ul>
-
-    <ul class="navbar-nav ml-auto d-flex align-items-center">
-      <li class="nav-item pl-3">
-        <a (click)='sair()' class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
-      </li>
-    </ul>
+    <div  class="login align-items-center ">
+      <a href="#" routerLink='/home'>
+        <p id="centerLogin" class='text-dark' > Sair <i class=" fa fa-sign-out" aria-hidden="true"></i>
+        </p>
+      </a>
+    </div>
+    <!--  -->
+    <!-- Exemplo de único botão -->
+    <div class="btn-group align-items-center">
+      <button type="button" class="btn btn-dark dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Menu
+      </button>
+      <!-- Ajustar a largura do dropDown -->
+      <div class="dropdown-menu ajusteDrop" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" routerLink='/home'>Home</a>
+        <a class="dropdown-item" routerLink='/sobre-nos'>Sobre nós</a>
+        <a class="dropdown-item" routerLink='/home'>Cursos</a>
+        <a class="dropdown-item" href="https://www.vakinha.com.br/vaquinha/projeto-conquer-conquer" target="_blank">Doe aqui</a>
+        <a class="dropdown-item" routerLink='/sobre-nos'>Contato</a>
+      </div>
+    </div>
 
   </div>
 </nav>

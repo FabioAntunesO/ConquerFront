@@ -20,6 +20,7 @@ import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.compon
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { AlertasComponent } from './alertas/alertas.component';
+import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { SquadComponent } from './squad/squad.component';
 import { ComoFuncionaComponent } from './como-funciona/como-funciona.component';
 import { OdsComponent } from './ods/ods.component';
@@ -46,6 +47,7 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
     PostagemDeleteComponent,
     UserEditComponent,
     AlertasComponent,
+    CarrinhoComponent,
     SquadComponent,
     ComoFuncionaComponent,
     OdsComponent,

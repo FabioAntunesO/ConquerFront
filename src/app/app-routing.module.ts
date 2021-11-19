@@ -12,6 +12,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 
+
 const routes: Routes = [
 
   {path: '', redirectTo: 'entrar', pathMatch: 'full'},
@@ -22,6 +23,7 @@ const routes: Routes = [
 
   {path: 'inicio', component: InicioComponent},
   {path: 'tema', component: TemaComponent},
+  // {path: 'carrinho', component: CarrinhoComponent},
 
   {path: 'tema-edit/:id', component: TemaEditComponent},
   {path: 'tema-delete/:id', component: TemaDeleteComponent},
