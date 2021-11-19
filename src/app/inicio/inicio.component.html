@@ -1,19 +1,19 @@
-<div class="container-fluid">
+<div class="container-fluid" id="backcolor">
 
-  <div class="row bg-secondary d-flex align-items-center">
+  <div class="row d-flex align-items-center">
     <div class="col-md-6">
 
       <div class="row d-flex justify-content-center">
         <div class="col-md-6 text-white">
-          <h1 class="fs-54">Seja bem vindo(a)!</h1>
-          <h5 class="fs-18">Conquiste os lugares mais altos com os cursos conquer</h5>
+          <h3 class="fs-30 text-dark">Seja bem vindo Conquer</h3>
+          <h5 class="fs-16 text-dark">Conquiste os lugares mais altos com os cursos conquer</h5>
         </div>
       </div>
 
       <div class="row d-flex justify-content-center mt-3 mb-5">
         <div class="col-md-6">
-          <button class="btn btn-light mr-2" data-toggle="modal" data-target="#novaPostagem">Novo curso</button>
-          <a class="btn btn-outline-light" href="#postagens">Ver cursos</a>
+          <button class="btn btn-dark mr-2" data-toggle="modal" data-target="#novaPostagem">Novo curso</button>
+          <a class="btn btn-dark" href="#postagens">Ver cursos</a>
         </div>
       </div>
 
@@ -21,7 +21,7 @@
 
 
     <div class="col-md-6 d-flex justify-content-center">
-      <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px">
+      <img src="https://i.imgur.com/JqYCseh.png" alt="" width="500px" height="500px">
     </div>
   </div>
 
@@ -57,8 +57,8 @@
             <p class="card-text">{{item.descricao}}</p>
             <p class="card-text"><small class="text-muted">by: {{item.usuario.nome}}</small></p>
 
-            <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
-            <a [routerLink]="['/postagem-delete', item.id]" class="text-danger" href="">Apagar</a>
+            <a [routerLink]="['/postagem-edit', item.id]" class="btn btn-success mr-3" href="">Editar</a>
+            <a [routerLink]="['/postagem-delete', item.id]" class="btn btn-danger" href="">Apagar</a>
 
           </div>
         </div>
@@ -117,7 +117,7 @@
             <p class="card-title m-0">{{item.curso}}</p>
             <small class="text-muted"> Categoria: {{item.categoria.tipo}}</small>
             <p class="card-text mt-3">{{item.descricao}}</p>
-            <p class="card-text mt-3">{{item.preco}}</p>
+            <p class="card-text mt-3">Preço: R${{item.preco}}</p>
             <!-- <p class="card-text"><small class="text-muted">
               {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
             </small></p> -->
@@ -136,7 +136,7 @@
       <div class="row d-flex justify-content-center mt-5 mb-5">
         <div class="col-md-4">
           <div class="form-group">
-            <input type="text" class="form-control" id="titulo" placeholder="Digite um tema para pesquisar"
+            <input type="text" class="form-control" id="titulo" placeholder=""
               [(ngModel)]='nomeTema' (keyup)='findByNomeTema()'>
           </div>
         </div>
@@ -187,6 +187,11 @@
           <label for="descricao">Descrição</label>
           <textarea [(ngModel)]='postagem.descricao' class="form-control" name="descricao" id="descricao"
             rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="preco">Foto</label>
+          <input [(ngModel)]='postagem.imagem' type="text" class="form-control" id="imagem" placeholder="imagem">
         </div>
 
         <div class="form-group">
