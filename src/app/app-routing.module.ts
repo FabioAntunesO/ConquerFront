@@ -9,13 +9,16 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 
 
 const routes: Routes = [
 
   {path: '', redirectTo: 'entrar', pathMatch: 'full'},
-
   {path:'entrar', component: EntrarComponent},
+  {path: 'home', component: HomeComponent},
+
   {path: 'cadastrar', component: CadastrarComponent},
 
   {path: 'inicio', component: InicioComponent},
@@ -26,7 +29,8 @@ const routes: Routes = [
   {path: 'tema-delete/:id', component: TemaDeleteComponent},
   {path: 'postagem-edit/:id', component: PostagemEditComponent},
   {path: 'postagem-delete/:id', component: PostagemDeleteComponent},
-  {path: 'user-edit/:id', component: UserEditComponent}
+  {path: 'user-edit/:id', component: UserEditComponent},
+  {path: 'sobre-nos', component: SobreNosComponent}
 
 ];
 
