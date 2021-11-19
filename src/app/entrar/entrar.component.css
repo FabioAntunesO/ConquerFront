@@ -1,7 +1,7 @@
 .img{
   background-image: linear-gradient(
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 10) 100%
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.3) 100%
   ),
 
   url("../../assets/img/Secure login-bro .png");
@@ -22,7 +22,7 @@
 .peso{
   font-weight: 600;
   font-size: 16pt;
-  color: #1c1c1c;
+  color: #ffffff;
 
 }
 
@@ -70,5 +70,10 @@
   h2{
       text-align: center;
       color: #ffffff;
+  }
+  #visivel{
+    font-weight: bold;
+    font-size: 18pt;
+    color: #ffffff;
   }
 
