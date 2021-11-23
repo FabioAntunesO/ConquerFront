@@ -29,7 +29,7 @@
 
 <div class="container mb-5 mt-5" id="postagens">
 
-  <nav>
+  <!-- <nav>
     <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
 
       <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab"
@@ -42,7 +42,22 @@
       <a class="nav-item nav-link text-secondary font-weight-bold" id="nav-postagemTema-tab" data-toggle="tab"
         href="#postagemTema" role="tab" aria-controls="nav-postagemTema" aria-selected="false">Cursos cadastrados</a>
 
+    </div> -->
+    
+  
+    <nav>
+    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+
+  <a class="flex-sm-fill nav-link active text-dark text-center font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todos os cursos</a>
+
+  <a (click)='findByIdUser()' class="flex-sm-fill text-dark text-center nav-link font-weight-bold" id="nav-minhasPostagens-tab"  data-toggle="tab" href="#minhasPostagens" role="tab" aria-controls="nav-minhasPostagens"
+  aria-selected="false">Ver cursos</a>
+
+  <a class="flex-sm-fill text-center nav-link text-dark font-weight-bold" id="nav-postagemTema-tab" data-toggle="tab"   href="#postagemTema" role="tab" aria-controls="nav-postagemTema" aria-selected="false">Cursos cadastrados</a>
+  <!-- </nav>  -->
     </div>
+     
+
   </nav>
 
   <div class="tab-content mt-5" id="nav-tabContent">
@@ -137,8 +152,8 @@
       <div class="row d-flex justify-content-center mt-5 mb-5">
         <div class="col-md-4">
           <div class="form-group">
-            <input type="text" class="form-control" id="titulo" placeholder=""
-              [(ngModel)]='nomeTema' (keyup)='findByNomeTema()'>
+            <!-- <input type="text" class="form-control" id="titulo" placeholder=""
+              [(ngModel)]='nomeTema' (keyup)='findByNomeTema()'> -->
           </div>
         </div>
       </div>
