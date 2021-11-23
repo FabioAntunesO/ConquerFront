@@ -28,6 +28,7 @@ import { HomeComponent } from './home/home.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { CardsComponent } from './cards/cards.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 
@@ -54,7 +55,8 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
     HomeComponent,
     CarrouselComponent,
     CardsComponent,
-    SobreNosComponent
+    SobreNosComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

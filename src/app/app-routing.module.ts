@@ -1,3 +1,4 @@
+import { ContatoComponent } from './contato/contato.component';
 import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
@@ -15,9 +16,10 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 
 const routes: Routes = [
 
-  {path: '', redirectTo: 'entrar', pathMatch: 'full'},
-  {path:'entrar', component: EntrarComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
+  {path:'entrar', component: EntrarComponent},
+
 
   {path: 'cadastrar', component: CadastrarComponent},
 
@@ -30,7 +32,8 @@ const routes: Routes = [
   {path: 'postagem-edit/:id', component: PostagemEditComponent},
   {path: 'postagem-delete/:id', component: PostagemDeleteComponent},
   {path: 'user-edit/:id', component: UserEditComponent},
-  {path: 'sobre-nos', component: SobreNosComponent}
+  {path: 'sobre-nos', component: SobreNosComponent},
+  {path: 'contato', component: ContatoComponent}
 
 ];
 
