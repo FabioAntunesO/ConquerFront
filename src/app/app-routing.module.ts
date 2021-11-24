@@ -12,6 +12,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
+import { CarrinhoComponent } from './carrinho/carrinho.component';
 
 
 const routes: Routes = [
@@ -25,7 +26,7 @@ const routes: Routes = [
 
   {path: 'inicio', component: InicioComponent},
   {path: 'tema', component: TemaComponent},
-  // {path: 'carrinho', component: CarrinhoComponent},
+  {path: 'carrinho', component: CarrinhoComponent},
 
   {path: 'tema-edit/:id', component: TemaEditComponent},
   {path: 'tema-delete/:id', component: TemaDeleteComponent},
