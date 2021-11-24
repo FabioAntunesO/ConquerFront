@@ -110,4 +110,8 @@ export class InicioComponent implements OnInit {
     }
   }
 
+  nossoLog(){
+    console.log(this.listaPostagens)
+  }
+
 }
