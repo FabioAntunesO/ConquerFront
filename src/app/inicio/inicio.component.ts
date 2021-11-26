@@ -84,7 +84,7 @@ export class InicioComponent implements OnInit {
 
     this.postagemService.postPostagem(this.postagem).subscribe((resp: Postagem) => {
       this.postagem = resp
-      this.alertas.showAlertSuccess('Postagem realizada com sucesso!')
+      this.alertas.showAlertSuccess('Produto cadastrado com sucesso!')
       this.postagem = new Postagem()
       this.getAllPostagens()
     })
