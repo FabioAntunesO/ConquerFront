@@ -1,1 +1,69 @@
-<p>carrinho works!</p>
+<!-- <div *ngIf="carrinhoVazio()">
+    <h2 class="m-5 font-weight-bold text-muted">Carrinho Vazio</h2>
+</div>
+
+<div *ngIf="!carrinhoVazio()">
+    <div class="container-fluid mt-5 text-center d-none d-lg-block">
+        <div class="row">
+            <div class="col-10 mx-auto col-lg-2">
+                <p class="text-uppercase font-weight-bold">Produtos</p>
+            </div>
+            <div class="col-10 mx-auto col-lg-2">
+                <p class="text-uppercase font-weight-bold">Nome do produto</p>
+            </div>
+            <div class="col-10 mx-auto col-lg-2">
+                <p class="text-uppercase font-weight-bold">Preço</p>
+            </div>
+            <div class="col-10 mx-auto col-lg-2">
+                <p class="text-uppercase font-weight-bold">Quantidade</p>
+            </div>
+            <div class="col-10 mx-auto col-lg-2">
+                <p class="text-uppercase font-weight-bold">Remover</p>
+            </div>
+            <div class="col-10 mx-auto col-lg-2">
+                <p class="text-uppercase font-weight-bold">Total</p>
+            </div>
+        </div>
+    </div>
+    Carrinho Items
+    <div class="container-fluid">
+        <div *ngFor="let item of listaProdutos">
+            <div class="row my-3 text-capitalize text-center">
+                <div class="col-10 mx-auto col-lg-2">
+                    <img src="{{ item.imagemProduto }}" style="display: 5rem; height: 5rem" alt="produto"
+                        class="img-fluid rounded-circle card-hover" />
+                </div>
+
+                <div class="col-10 mx-auto col-lg-2">
+                    <span class="d-lg-none">Produto: </span>
+                    {{ item.nomeProduto }}
+                </div>
+
+                <div class="col-10 mx-auto col-lg-2">
+                    <span class="d-lg-none">Preço: </span>
+                    {{
+                    item.precoProduto.toLocaleString("pt-br", {
+                    style: "currency",
+                    currency: "BRL"
+                    })
+                    }}
+                </div>
+
+                <div class="col-10 mx-auto col-lg-2">
+                    <div class="col-10 mx-auto col-lg-2 my-2 my-lg-0">
+                        <div class="d-flex justify-content-center">
+                            <span class="btn btn-outline-dark mx-1" (click)="removeQuantidade(item.idProduto)">-</span>
+                            <span class="btn btn-outline-dark mx-1">{{
+                                item.quantidade
+                                }}</span>
+                            <span class="btn btn-outline-dark mx-1" (click)="addQuantidade(item.idProduto)">
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Carrinho Items
+</div> -->

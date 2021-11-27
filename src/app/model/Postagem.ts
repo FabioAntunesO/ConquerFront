@@ -10,4 +10,6 @@ export class Postagem{
   public usuario: User
   //CATEGORIA
   public tema: Tema
+  //Adcionado para o carrinho:
+  public quantidade: number
 }
