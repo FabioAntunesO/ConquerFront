@@ -1,0 +1,48 @@
+#video1{
+    text-align: start;
+    align-items: center;
+    margin: 3em auto;
+    margin-bottom: 3em auto;
+    z-index: 1;
+}
+
+#video2{
+    text-align: center;
+    align-items: center;
+    margin: 3em auto;
+    margin-bottom: 3em auto;
+    z-index: 2;
+}
+
+#video3{
+    text-align: center;
+    align-items: center;
+    margin: 3em auto;
+    margin-bottom: 3em auto;
+    z-index: 3;
+}
+
+#video4{
+    text-align: center;
+    align-items: center;
+    margin: 3em auto;
+    margin-bottom: 3em auto;
+    z-index: 4;
+}
+
+#colorBG{
+    background: hsla(240, 4%, 95%, 1);
+  
+    background: linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+  
+    background: -moz-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+  
+    background: -webkit-linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
+  
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F3F4", endColorstr="#FFDF64", GradientType=1 );
+  }
+
+  .tipoFonte{
+    font-size: 40px;
+    color: #65655E;
+  }
