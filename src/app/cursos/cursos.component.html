@@ -1,0 +1,66 @@
+
+<div class="container-fluid pading" id="containerFundo" >
+  <div class="container" >
+    <h3 class="formacoes-catalago-titulo mt-5 mb-4" style="font-size: 32pt;">
+      <img class="formacoes-catalogo-icone" src="../../assets/diploma-de-graduacao.png" alt="" width="38px" height="38px">
+      Cursos
+    </h3>
+    <h1 class="formacoes-header-titulo" style="font-size: 26pt; font-family: fantasy;">Explore o conteúdo da Conquer</h1>
+    <h2 class="formacoes-header-subtitulo" style="font-size: 20pt; font-family: monospace;">
+      Conheca nossos Cursos, uma sequência de conteúdo para você se torna o profissional que o mercado procura
+    </h2>
+  </div>
+</div>
+
+
+
+
+<div class="" id="containerFundo">
+  <div class="row-wrap">
+    <div class="col-md-12 d-flex justify-content-center">
+      <div *ngFor='let item of listaPostagens' class="container-fluid d-flex justify-content-center card"
+        style="width: 30rem;">
+        <div>
+          <img class="card-img-top" src="{{item.imagem}}" alt="Imagem do curso" width="100%">
+        </div>
+
+        <!-- <div class="card-body">
+
+        </div> -->
+
+        <div>
+          <h3 class="card-text text-center">{{item.curso}}</h3>
+          <p class="card-text"><span class="ajuste">Descrição: </span><br>{{item.descricao}}</p>
+          <p class="card-text"><span class="ajuste">Preço:</span> <span class="preco">R${{item.preco}}</span></p>
+          <a [routerLink]="['/postagem-edit', item.id]" class=" btn btn-info mr 2" href="">Comprar</a>
+          <!-- <a [routerLink]="['/postagem-delete', item.id]" class="btn btn-danger " href="">Adicinar ao carrinho</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="" id="containerFundo">
+  <div class="row-wrap">
+    <div class="col-md-12 d-flex justify-content-center">
+      <div *ngFor='let item of listaPostagens' class="container-fluid d-flex justify-content-center card"
+        style="width: 30rem;">
+        <div>
+          <img class="card-img-top" src="{{item.imagem}}" alt="Imagem do curso" width="100%">
+        </div>
+
+        <!-- <div class="card-body">
+
+        </div> -->
+
+        <div>
+          <h3 class="card-text text-center">{{item.curso}}</h3>
+          <p class="card-text"><span class="ajuste">Descrição: </span><br>{{item.descricao}}</p>
+          <p class="card-text"><span class="ajuste">Preço:</span> <span class="preco">R${{item.preco}}</span></p>
+          <a [routerLink]="['/postagem-edit', item.id]" class=" btn btn-info mr 2" href="">Comprar</a>
+          <!-- <a [routerLink]="['/postagem-delete', item.id]" class="btn btn-danger " href="">Adicinar ao carrinho</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
