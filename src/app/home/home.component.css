@@ -41,3 +41,8 @@
   
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F3F4", endColorstr="#FFDF64", GradientType=1 );
   }
+
+  .tipoFonte{
+    font-size: 40px;
+    color: #65655E;
+  }
