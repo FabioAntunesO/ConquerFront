@@ -1,9 +1,9 @@
-/* .txt-azulescuro{
+.txt-azulescuro{
     color: var(--color-font-titulo-equipe);
   
   }
   
-  .backcolor{
+  /* .backcolor{
    background: hsla(240, 4%, 95%, 1);
   
     background: linear-gradient(180deg, hsla(240, 4%, 95%, 1) 0%, hsla(48, 100%, 70%, 0.8) 85%);
@@ -99,7 +99,7 @@
   .txt-descricaoD{
     margin-left: 185px;
     margin-top: 3px;
-  }
+  } */
   
   .redeSocial{
     margin-left: 10px;
@@ -124,7 +124,7 @@
   
   @media only screen and (max-width:1350px) {
   
-    .equipeDescricaoE{
+    /* .equipeDescricaoE{
         width: 350px;
         height: 130px;
         background-color: var(--color-bg-branco);
@@ -191,7 +191,7 @@
     .txt-descricaoD{
         margin-left: 80px;
         margin-top: 3px;
-    }
+    } */
   
     .redeSocial{
         margin-left: 10px;
@@ -217,7 +217,7 @@
   
   @media only screen and (max-width:1140px) {
   
-    .equipeDescricaoE{
+    /* .equipeDescricaoE{
         width: 280px;
         height: 130px;
         background-color: var(--color-bg-branco);
@@ -280,7 +280,7 @@
     .txt-descricaoD{
         margin-left: 10px;
         margin-top: 3px;
-    }
+    } */
   
     .redeSocial{
         margin-left: 10px;
@@ -306,7 +306,7 @@
   
   @media only screen and (max-width:1000px) {
   
-    .equipeDescricaoE{
+    /* .equipeDescricaoE{
         width: 280px;
         height: 130px;
         background-color: var(--color-bg-branco);
@@ -373,7 +373,7 @@
     .txt-descricaoD{
         margin-left: 10px;
         margin-top: 3px;
-    }
+    } */
   
     .redeSocial{
         margin-left: 10px;
@@ -398,7 +398,7 @@
   
   @media only screen and (max-width:880px) {
   
-    .equipeDescricaoE{
+    /* .equipeDescricaoE{
         width: 280px;
         height: 130px;
         background-color: var(--color-bg-branco);
@@ -465,7 +465,7 @@
     .txt-descricaoD{
         margin-left: 10px;
         margin-top: 3px;
-    }
+    } */
   
     .redeSocial{
         margin-left: 10px;
@@ -489,7 +489,7 @@
   }
   
   @media only screen and (max-width:880px) {
-  
+/*   
     .equipeDescricaoE{
         width: 280px;
         height: 100px;
@@ -562,7 +562,7 @@
         margin-top: 3px;
         font-size: 12px;
         margin-bottom: 4px;
-    }
+    } */
   
     .redeSocial{
         margin-left: 10px;
@@ -586,7 +586,7 @@
   }
   
   @media only screen and (max-width:400px) {
-  
+/*   
     .equipeDescricaoE{
         width: 230px;
         height: 100px;
@@ -661,7 +661,7 @@
         margin-top: 3px;
         font-size: 12px;
         margin-bottom: 4px;
-    }
+    } */
   
     .redeSocial{
         margin-left: 10px;
@@ -683,4 +683,4 @@
         margin-left: 110px;
     }
   }
-   */
+  
