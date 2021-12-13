@@ -16,27 +16,27 @@ export class PostagemService {
   }
 
   getAllPostagens(): Observable<Postagem[]>{
-    return this.http.get<Postagem[]>('http://localhost:8080/produtos', this.token)
+    return this.http.get<Postagem[]>('http://conquesting.herokuapp.com/produtos', this.token)
   }
 
   getByIdPostagem(id: number): Observable<Postagem>{
-    return this.http.get<Postagem>(`http://localhost:8080/produtos/${id}`, this.token)
+    return this.http.get<Postagem>(`https://conquesting.herokuapp.com/produtos/${id}`, this.token)
   }
 
   getByTituloPostagem(curso: string): Observable<Postagem[]>{
-    return this.http.get<Postagem[]>(`http://localhost:8080/produtos/curso/${curso}`, this.token)
+    return this.http.get<Postagem[]>(`https://conquesting.herokuapp.com/produtos/curso/${curso}`, this.token)
   }
 
   postPostagem(postagem: Postagem) : Observable<Postagem>{
-    return this.http.post<Postagem>('http://localhost:8080/produtos', postagem, this.token)
+    return this.http.post<Postagem>('https://conquesting.herokuapp.com/produtos', postagem, this.token)
   }
 
   putPostagem(postagem: Postagem): Observable<Postagem>{
-    return this.http.put<Postagem>('http://localhost:8080/produtos', postagem, this.token)
+    return this.http.put<Postagem>('https://conquesting.herokuapp.com/produtos', postagem, this.token)
   }
 
   deletePostagem(id: number){
-    return this.http.delete(`http://localhost:8080/produtos/${id}`, this.token)
+    return this.http.delete(`https://conquesting.herokuapp.com/produtos/${id}`, this.token)
   }
 
 }
